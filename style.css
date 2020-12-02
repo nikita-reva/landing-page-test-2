@@ -166,11 +166,16 @@ header .navigation li a {
 
 @media (max-width: 991px) {
     header {
+	padding-left: 50px
         padding-right: 50px;
     }
 
     header .navigation{
         display: none;
+    }
+
+    header .navigation li a {
+        margin-left: 0;
     }
 
     .content {
